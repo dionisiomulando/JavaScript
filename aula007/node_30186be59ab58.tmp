@@ -129,7 +129,7 @@ console.log(`O somatório das notas é de ${soma}`)
 console.log(alunos)
 */
 //let sum = 0
-for(let i = 0; i < 20; i){
+for(let i = 10; i < 20; i--){
     //sum += i
     console.log(i)
 }

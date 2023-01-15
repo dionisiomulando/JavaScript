@@ -1,0 +1,59 @@
+/*let n = 0;
+while(n < 91){
+    console.log(n+n)
+    n += 10
+}
+
+let terminar = false;
+let contador = 1;
+while (terminar != true){
+    let contunue = confirm(`[${contador}] Quer continuar`)
+    terminar = contunue === true ? false : true
+    contador += 1
+}
+let terminar = false
+let contador = 0
+while (contador != true) {
+    let continuar = confirm('Quer continuar?')
+    terminar = continuar === true ? false : true
+}
+console.log(contador)
+//console.log(contar)
+
+let numInicial = Number(prompt('Digite um número '));
+let numFinal = Number(prompt('Digite o segundo número '))
+while (numInicial <= numFinal) {
+    console.log(numInicial)
+    numInicial += 1 
+    break
+}
+
+let contacto = [
+    {
+        Nome: 'Dionísio Pinto',
+        telefone: 932767426,
+        email: 'mulando1@hotmail.com'
+    },
+    {
+        Nome: 'Genisio Mulando',
+        telefone: 993301724,
+        email: 'genisio@gmail.com'
+    }
+]
+let i = 0
+while (i <= 1) {
+    console.log(contacto[i])
+    i++    
+} 
+*/
+let numInicial = 20//Number(prompt('Digite um número '));
+let numFinal =  10//Number(prompt('Digite o segundo número '))
+while (numInicial > numFinal) {
+    console.log(numInicial)
+    numInicial++
+    if (numInicial > numFinal){
+        console.log(`O 1º ${numInicial} não pode ser maior que o 2º ${numFinal} `)
+    }
+    
+}
+
