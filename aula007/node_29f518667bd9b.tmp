@@ -127,43 +127,10 @@ for(let i = 0; i < alunos.length; i++){
 }
 console.log(`O somatório das notas é de ${soma}`)
 console.log(alunos)
-
-
+*/
 //let sum = 0
-for(let i = 0; i < 20; i +=3){
+for(let i = 0; i < 20; i --){
     //sum += i
     console.log(i)
 }
 //console.log(sum)
-
-let valores = [15, 89, 56, 78, 10, 69]
-let soma = 0
-for (const i of valores) {
-    soma += i
-}
-console.log(soma)
-*//*
-let cidades = [
-    {nome: 'Luanda', populacao: 8240360},
-    {nome: 'Cabinda', populacao: 2420346},
-    {nome: 'Zaire', populacao: 1320985},
-    {nome: 'Benguela', populacao: 4562345},
-    {nome: 'Uige', populacao: 6892745},
-];
-for (let nomesCidades of cidades) {
-    if (nomesCidades.populacao > 3e6) {
-        console.log(`${nomesCidades.nome} (${nomesCidades.populacao})`)
-    }    
-}
-*/
-let user = {
-    name: "Calvin",
-    surname: "Hart",
-    age: 66,
-    email: "CalvinMHart@teleworm.us"
-};
-
-for (let key in user) {
-    //console.log(user.name); 
-    console.log(`${user} --> ${user.name}`)
-};
